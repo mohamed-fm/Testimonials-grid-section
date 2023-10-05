@@ -27,14 +27,14 @@ body{
     align-items: center;
     justify-content: center;
 }
+.amazing-momo{
+    display: none;
+}
 .contenar{
     display: flex;
     flex-direction: column;
     gap: 30px 0px;
    
-}
-.amazing-momo{
-    display: none;
 }
 
 .contenar .card1-2-pearent{
@@ -49,6 +49,18 @@ body{
     padding: 25px;
    background-color: var(--Moderate-violet);
    border-radius: 10px;
+   position: relative;
+}
+
+.contenar .card1 .top-section .momo{
+    border: none;
+    width: 100px;
+    height: 100px;
+  position: absolute;
+  border-radius: 0px;
+  right: 100px;
+  top: 0px;
+  z-index: 0;
 }
 
 .contenar .card1 .top-section{
@@ -56,6 +68,7 @@ body{
     gap: 10px;
     align-items: center;
     margin-bottom:15px ;
+    z-index: 2;
 }
 .top-section h2{
    font-size: 15px;
@@ -71,11 +84,15 @@ body{
     border: 1px solid var(--White);
     border-radius: 50%;
 }
+.contenar .card1-2-pearent .card1 .description h1{
+    z-index: 2;
+} 
 .description h1{
 font-size: 20px;
 margin-bottom: 15px;
 color: var(--White);
 opacity: 85%;
+
 }
 .description p{
     color: var(--White);
@@ -124,7 +141,7 @@ opacity: 85%;
 }
 .contenar .card3 .top-section h2 ,.contenar-card5 .card5 h2{
     color: black;
-    opacity:60%;
+    opacity: 60%;
 
 }
 .contenar .card3 .top-section P ,.card5 p {
@@ -193,6 +210,9 @@ opacity: 85%;
     box-shadow:10px 10px 20px #00000010 ;
 }
 @media screen and (max-width:600px) {
+    .contenar .card1 .top-section .momo{
+        right: 21px;
+    }
     br{
         display: none;
     }
