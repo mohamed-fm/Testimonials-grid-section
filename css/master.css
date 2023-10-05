@@ -33,6 +33,9 @@ body{
     gap: 30px 0px;
    
 }
+.amazing-momo{
+    display: none;
+}
 
 .contenar .card1-2-pearent{
     display: flex;
@@ -121,6 +124,7 @@ opacity: 85%;
 }
 .contenar .card3 .top-section h2 ,.contenar-card5 .card5 h2{
     color: black;
+    opacity:60%;
 
 }
 .contenar .card3 .top-section P ,.card5 p {
