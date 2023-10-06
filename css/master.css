@@ -15,17 +15,18 @@ body{
     font-family: 'Barlow Semi Condensed';
     font-family: 'Barlow Semi Condensed', sans-serif;
     box-sizing: border-box;
-    background-color: var(--Light-grayish-blue);
     min-height: 100vh;
     min-width: 100vw;
+    background-color: red;
 
 }
 .all{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+  background-color: var(--Light-grayish-blue);
 }
 .amazing-momo{
     display: none;
@@ -33,8 +34,10 @@ body{
 .contenar{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 30px 0px;
-   
+    
 }
 
 .contenar .card1-2-pearent{
@@ -117,7 +120,7 @@ opacity: 85%;
     border-radius: 50%;
 }
 .card2 .description p{
-    opacity: 50%;
+    opacity: 60%;
 }
 .contenar .card3-4-pearent{
     display: flex;
@@ -156,6 +159,7 @@ opacity: 85%;
 }
 .contenar .card3 .description h1 ,.card5 h1{
     color: black;
+    opacity: 70%;
 }
 .contenar .card3 .description p{
     opacity: 50%;
@@ -178,6 +182,9 @@ opacity: 85%;
     height: 25px;
     border: 1px solid var(--Moderate-violet);
     border-radius: 50%; 
+}
+.contenar .card3-4-pearent .card4 .description p{
+    opacity: 50%;
 }
 .contenar-card5{
     margin-left: 30px;
@@ -256,5 +263,5 @@ opacity: 85%;
         width: 261px;
         margin-bottom: 30px;
     }
-
+   
 }
