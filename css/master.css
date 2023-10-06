@@ -45,7 +45,7 @@ body{
 }
 
 .contenar .card1{
-    width:475px;
+    width:483px;
     padding: 25px;
    background-color: var(--Moderate-violet);
    border-radius: 10px;
@@ -162,7 +162,7 @@ opacity: 85%;
     color: black;
 }
 .contenar .card3-4-pearent .card4{
-    width:475px;
+    width:483px;
     padding: 25px;
    background-color: var(--Very-dark-blackish-blue);
    border-radius: 10px;
